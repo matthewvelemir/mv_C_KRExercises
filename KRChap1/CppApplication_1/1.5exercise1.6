@@ -1,0 +1,51 @@
+#include <stdlib.h>
+#include <stdio.h> 
+
+int ioexercise1_6(void)
+{
+
+    int inputc;
+    double numline, numchar, numtab, numblank;
+    
+    numline = numchar = numtab = numblank =0; 
+    
+    while( (inputc = getchar()) != EOF) 
+    {
+        if (inputc = '\n') 
+        {
+            ++numline;
+            // count carriage return 
+        } // end newline if
+        
+        if (inputc = '\t')
+        {
+            ++numtab;
+        }
+        
+        if (inputc = ' ')
+        {
+            ++numblank;
+        }
+        
+        ++numchar; 
+        
+        printf("%c", inputc);
+        
+    
+        
+        
+    } // end while 1
+    
+    printf("\n"); 
+    
+    printf("Number of lines:  %.0d \n", numline);
+    printf("Number of chars:  %0.d \n", numchar);
+    printf("Number of blanks: %0.d \n", numblank);
+    printf("Number of tabs:   %0.d \n", numtab);
+    
+    
+    return 0;
+    
+}  // end main 
+
+
