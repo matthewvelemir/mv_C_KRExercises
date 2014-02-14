@@ -12,10 +12,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>1.2example1.c</itemPath>
-      <itemPath>1.3example2.c</itemPath>
-      <itemPath>1.5example3.c</itemPath>
-      <itemPath>1.5exercise1.6</itemPath>
       <itemPath>Chp1Dm1_5.c</itemPath>
       <itemPath>Chp1Dm1_6.c</itemPath>
       <itemPath>Chp1Dm1_7.c</itemPath>
@@ -56,14 +52,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="1.2example1.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.3example2.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.5example3.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.5exercise1.6" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="Chp1Dm1_5.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Chp1Dm1_6.c" ex="false" tool="0" flavor2="0">
@@ -119,14 +107,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="1.2example1.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.3example2.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.5example3.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="1.5exercise1.6" ex="false" tool="0" flavor2="0">
-      </item>
       <item path="Chp1Dm1_5.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Chp1Dm1_6.c" ex="false" tool="0" flavor2="0">

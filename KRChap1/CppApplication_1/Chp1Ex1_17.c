@@ -4,7 +4,7 @@
  * Description: Write a program to print all input lines > 80 chars. 
  * So this is the better version of the program, wherein you can take in 
  * lines of any size using a known array size. 
- s* K&R Second Edition
+ * K&R Second Edition
  */
 
 #include <stdio.h>

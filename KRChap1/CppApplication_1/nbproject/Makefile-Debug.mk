@@ -35,10 +35,6 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/1.2example1.o \
-	${OBJECTDIR}/1.3example2.o \
-	${OBJECTDIR}/1.5example3.o \
-	${OBJECTDIR}/1.5exercise1.o \
 	${OBJECTDIR}/Chp1Dm1_5.o \
 	${OBJECTDIR}/Chp1Dm1_6.o \
 	${OBJECTDIR}/Chp1Dm1_7.o \
@@ -81,26 +77,6 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppapplication_1.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cppapplication_1 ${OBJECTFILES} ${LDLIBSOPTIONS}
-
-${OBJECTDIR}/1.2example1.o: 1.2example1.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1.2example1.o 1.2example1.c
-
-${OBJECTDIR}/1.3example2.o: 1.3example2.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1.3example2.o 1.3example2.c
-
-${OBJECTDIR}/1.5example3.o: 1.5example3.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1.5example3.o 1.5example3.c
-
-${OBJECTDIR}/1.5exercise1.o: 1.5exercise1.6 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1.5exercise1.o 1.5exercise1.6
 
 ${OBJECTDIR}/Chp1Dm1_5.o: Chp1Dm1_5.c 
 	${MKDIR} -p ${OBJECTDIR}
